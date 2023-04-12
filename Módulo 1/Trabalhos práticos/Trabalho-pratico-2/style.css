@@ -1,0 +1,260 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans';
+  background-color: lavender;
+}
+
+/* CABEÇALHO */
+.topo {
+  width: 100%;
+  margin: auto;
+  background-image: linear-gradient(blue, lightblue);
+}
+
+.topo table {
+  margin: auto;
+
+}
+
+.topo img {
+  border-radius: 50%;
+  width: 130px;
+}
+
+#gabrielly {
+  padding: 50px 0 0 20px;
+  font-size: 25px;
+}
+
+#desenvolvedora {
+  font-family: 'Courier New';
+  padding: 0 0 50px 20px;
+  font-size: 25px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.intro, table {
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.intro {
+  text-align: center;
+}
+
+.nav {
+  color: darkblue;
+  height: 100px;
+  padding: 5px 30px;
+}
+
+.barra {
+  text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  padding: 20px 50px 10px 50px;
+} 
+
+.escolhido {
+  background-color: darkblue;
+  color: white;
+  border-radius: 7px;
+}
+
+.nav:hover{
+  background-color: lightblue;
+  color: white;
+  border-radius: 7px;
+}
+
+/* CONTEÚDO */
+
+.nav, span, #info1 {
+  font-family: 'Caveat', cursive;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+#introducao {
+  background-color: darkblue;
+  border-radius: 20px;
+  width: 50%;
+  padding: 20px;
+}
+
+#prog{
+  width:50%;
+}
+
+#contate_me {
+  color: darkblue;
+  font-family: 'Open Sans';
+  background-color: lightblue;
+  width: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#eusou {
+  color: orange;
+}
+
+.minititulos {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open sans';
+}
+
+th {
+  width: 20%;
+  text-align: left;
+}
+
+.infor{
+  width: 80%;
+  border-spacing: 20px;
+}
+
+.infor img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.topicos {
+  padding: 10px 20px;
+}
+
+.topicos a {
+  color: black;
+}
+
+main td {
+  padding: 10px 40px 10px 0;
+}
+
+main {
+  font-size: 21px;
+}
+
+#info1 {
+  font-size: 34px;
+}
+
+span {
+  font-size: 23px;
+}
+
+#titulogrande h1 {
+  margin: 0px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+#minibio p {
+  margin: 0;
+}
+
+.subtitulo {
+  padding: 40px 0 20px 0;
+  font-size: 30px;
+}
+
+progress {
+  height: 35px;
+}
+
+.projetos img {
+  width: 300px;
+  padding: 0;
+}
+
+.projetos th {
+  width: 70%;
+}
+
+.imageproject {
+  padding: 0 20px 0 0;
+}
+
+.resumo {
+  padding: 0;
+}
+
+.imageproject, .resumo {
+  padding: 0 20px 15px 0;
+}
+
+.projeto1 {
+  padding: 50px 20px 15px 0;
+}
+
+#minihr {
+  border-width: 1px;
+  width: 80%;
+}
+
+.mensagem {
+  height: 90px;
+}
+
+#foto {
+  width: 0;
+  padding: 50px 0 50px 200px;
+}
+
+/* FORMULÁRIO */
+.forms {
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+}
+
+.botao {
+  width: 70px;
+  height: 35px;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
+
+.botao:hover {
+  width: 70px;
+  height: 35px;
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+}
+
+.assuntos{
+  width: 307px;
+  height: 25px;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  background-color: white;
+/*   width: 100%; */
+}
+
+footer img {
+  width: 5%;
+}
+
+footer p {
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold
+}
+
+footer hr {
+  border-width: 2px;
+}

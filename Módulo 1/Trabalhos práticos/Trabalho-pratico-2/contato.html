@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho prático 1 - Contato</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courier+Prime&family=Open+Sans&display=swap');
+  </style>
+</head>
+</head>
+<body>
+  <table class="topo">
+    <tr>
+      <td rowspan="2" id="foto"><img src="img/foto-perfil.jpg" alt="Gabrielly Desenvolvedora Web"/><br></td>
+      <td id="gabrielly"><h1>Gabrielly Dionisio</h1></td>
+    </tr>
+    <tr>
+      <td id="desenvolvedora">Desenvolvedora Web</td>
+    </tr>
+  </table>
+  
+  <table class="intro">
+    <tr>
+      <td class="barra"><a class="nav" href="index.html">Principal</a></td>
+      <td class="barra"><a class="nav" href="quemsou.html">Quem sou</a></td>
+      <td class="barra"><a class="nav" href="projetos.html">Projetos</a></td>
+      <td class="barra"><a class="nav escolhido" href="contato.html">Contato</a></td>
+    </tr>
+  </table>
+
+  <main>
+    <table>
+      <tr>
+        <th id="titulogrande"><h1>Entre em contato!</h1></th>
+      </tr>
+      <tr>
+        <td id="textopequeno"><p>Preencha todos os campos do formulário a seguir e em atté 48 horas lhe responderei.<br>
+        Será um prazer lhe atender!</p></td>
+      </tr>
+    </table>
+  
+    <form method="GET">
+      <table>
+        <tr>
+          <td>
+            <label for="txtAssunto">Assunto</label><br>
+            <select id="txAssunto" placeholder="Beltrano de Tal" class="forms assuntos" required name="select">
+              <option disabled selected>Selecione o assunto</option>
+              <option value="1">Orçamento</option>
+              <option value="2">Desenvolvimento Web</option>
+              <option value="3">Design Web</option>
+              <option value="4">Outro</option>
+            </select><br>
+          </td>
+        </tr>
+            <tr>
+          <td>
+            <label for="txtNome">Nome</label><br>
+            <input type="text" id="txtNome" class="forms" placeholder="Beltrano de Tal" required name="nome"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="txtEmail">E-mail</label><br>
+            <input type="email" id="txtEmail" placeholder="beltrano@email.com" class="forms" name="email"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="numTelefone">Telefone</label><br>
+            <input type="number" id="numTelefone" placeholder="(27) 99999-9999" class="forms" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}" required name="telefone"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="txtMiniBiografia">Mensagem</label><br>
+            <textarea id="txtMiniBiografia" cols="22" rows="4" class="forms mensagem" name="mensagem"></textarea><br>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Enviar" class="forms botao"</td>
+        </tr>
+      </table>
+    </form>
+
+    <hr id="minihr">
+  
+    <table>
+      <tr><th>Outras formas de contato</th></tr>
+      <tr>
+        <td>
+          <ul>
+            <li>Residente em São Mateus - ES</li>
+            <li><a href="mailto:gabyrosariod@gmail.com">gabyrosariod@gmail.com</a></li>
+            <li>(27) 996525541</li>
+            <li><a href="https://www.linkedin.com/in/gabrielly-dionisio-96095a227/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <hr>
+    <p>Copyright &#169 2022</p>
+    <img id="ifes" src="img/ifes.png" alt="logo da IFES" width="50px" />
+  </footer>
+
+
+</body>
+</html>

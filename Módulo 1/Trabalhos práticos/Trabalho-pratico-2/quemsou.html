@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho prático 1 - Quem sou</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Courier+Prime&family=Open+Sans&display=swap');
+  </style>
+</head>
+<body>
+  <table class="topo">
+    <tr>
+      <td rowspan="2" id="foto"><img src="img/foto-perfil.jpg" alt="Gabrielly Desenvolvedora Web"/><br></td>
+      <td id="gabrielly"><h1>Gabrielly Dionisio</h1></td>
+    </tr>
+    <tr>
+      <td id="desenvolvedora">Desenvolvedora Web</td>
+    </tr>
+  </table>
+
+  <table class="intro">
+    <tr>
+      <td class="barra"><a class="nav" href="index.html">Principal</a></td>
+      <td class="barra"><a class="nav escolhido" href="quemsou.html">Quem sou</a></td>
+      <td class="barra"><a class="nav" href="projetos.html">Projetos</a></td>
+      <td class="barra"><a class="nav" href="contato.html">Contato</a></td>
+    </tr>
+  </table>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th id="titulogrande" colspan="4"><h1 >Minibio</h1></th>
+        <tr>
+          <td id="textopequeno" colspan="4"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th colspan="2" class="subtitulo">Habilidades</th>
+          <th colspan="2" class="subtitulo">Idiomas</th>
+        </tr>
+        <tr>
+          <td><label for="html">HTML</label></td>
+          <td><progress id="html" value="3" max="5"></progress></td>
+          <td><label for="portugues">Português</label></td>
+          <td><progress id="portugues" value="5" max="5"></progress></td>
+        </tr>
+        <tr>
+          <td><label for="css">CSS</label></td>  
+          <td><progress id="css" value="2.5" max="5"></progress></td>
+          <td><label for="ingles">Inglês</label></td>
+          <td><progress id="ingles" value="2.5" max="5"></progress></td>
+        </tr>
+        <tr>
+          <td><label for="javascrypt">Javascrypt</label></td>
+          <td><progress id="javascrypt" value="0.5" max="5"></progress></td>
+          <td><label for="espanhol">Espanhol</label></td>
+          <td><progress id="espanhol" value="1" max="5"></progress></td>
+        </tr>
+        <tr>
+          <td><label for="nodejs">Node.js</label></td>
+          <td><progress id="nodejs" value="0" max="5"></progress></td>
+          <td><label for="alemao">Alemão</label></td>
+          <td><progress id="alemao" value="0" max="5"></progress></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!--<label for="python">Python</label>
+    <progress id="python" value="3" max="5"></progress><br>
+    <label for="php">PHP</label><br>
+    <progress id="php" value="1" max="5"></progress><br>-->
+    <table>
+      <tr>
+        <th colspan="2" class="subtitulo">Experiência Profissional</th>
+      </tr>
+      <tr>
+        <th colspan="2" class="minititulos">Designer Web</th>
+      </tr>
+      <tr>
+        <td>&#x1f4c5 2022 - Atual</td>
+        <td>Comecei em agosto deste ano a estudar HTML e CSS, realizando alguns projetos</td>
+      </tr>
+      <tr>
+        <th colspan="2" class="minititulos">Desenvolvedora Web</th>
+      </tr
+      <tr>
+        <td>&#x1f4c5 2022 - Atual</td>
+        <td>Junto com o HTML e CSS, tive um pouco acesso ao Laravel, MySQL e as linguagens PHP e Python.</td>
+      </tr>
+    </table>
+  </main>
+  
+  <footer>
+    <hr>
+    <p>Copyright &#169 2022</p>
+    <img id="ifes" src="img/ifes.png" alt="logo da IFES" width="50px" />
+  </footer>
+  
+</body>
+</html>
